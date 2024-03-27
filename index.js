@@ -11,7 +11,7 @@ app.get('/kshitiz', async (req, res) => {
        
         const options = {
             method: 'GET',
-            hostname: 'api13.anime-dex.workers.dev/',
+            hostname: 'api13.anime-dex.workers.dev',
             path: `/episode/${id}`,
         };
 
